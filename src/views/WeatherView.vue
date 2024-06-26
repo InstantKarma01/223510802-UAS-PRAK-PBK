@@ -91,10 +91,12 @@
   
   .q-my-md {
     margin: 1em 0;
+    font-weight: bold;
   }
   
   .q-my-sm {
     margin: 0.5em 0;
+    font-weight: bold;
   }
   
   .text-subtitle1 {

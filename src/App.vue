@@ -8,8 +8,12 @@
           </q-avatar>
           Project Weather
         </q-toolbar-title>
+        <q-tabs align="left">
+        <q-route-tab to="/weather" label="Wheater" />
+      </q-tabs>
         <q-btn dense flat round icon="menu" @click="toggleRightDrawer" />
       </q-toolbar>
+      
     </q-header>
 
     <q-drawer show-if-above v-model="rightDrawerOpen" side="right" bordered>
@@ -62,7 +66,7 @@
     </q-drawer>
 
     <q-page-container>
-      <router-view to="/weather" label="Weather" />
+      <router-view />
     </q-page-container>
   </q-layout>
 </template>
